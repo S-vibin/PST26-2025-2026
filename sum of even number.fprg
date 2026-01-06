@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="sum of even number"/>
+        <attribute name="authors" value="VIBIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 08:12:52 PM"/>
+        <attribute name="created" value="VklCSU47TEFQVE9QLTc4U1MwUUZBOzIwMjYtMDEtMDY7MDc6MzU6MzggUE07MjcxMw=="/>
+        <attribute name="edited" value="VklCSU47TEFQVE9QLTc4U1MwUUZBOzIwMjYtMDEtMDY7MDg6MTI6NTIgUE07MTsyODEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <while expression="i&lt;=100">
+                <assign variable="i" expression="i+1"/>
+                <output expression="i" newline="True"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
