@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="CIRCUMFERENCE"/>
+        <attribute name="authors" value="VIBIN"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 04:05:48 PM"/>
+        <attribute name="created" value="VklCSU47TEFQVE9QLTc4U1MwUUZBOzIwMjYtMDEtMDY7MDM6MDM6MDMgUE07MjY5Ng=="/>
+        <attribute name="edited" value="VklCSU47TEFQVE9QLTc4U1MwUUZBOzIwMjYtMDEtMDY7MDQ6MDU6NDggUE07NDsyODE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUM" type="Integer" array="False" size=""/>
+            <input variable="NUM"/>
+            <if expression="NUM%2==0">
+                <then>
+                    <output expression="&quot;IT IS EVEN&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;IT IS ODD&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
